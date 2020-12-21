@@ -1,0 +1,22 @@
+.app{
+    /* text-align: center; */
+    height: 100vh;
+}
+.Home{
+    transform: translateY(0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: anim 0.6s linear;
+}
+.Home p,h1 {
+    text-align: center;
+}
+.Home p button{
+    margin: 0 10px;
+}
+@keyframes anim{
+    0%{transform: translateY(-100vh);}
+    100%{transform: translateY(0vh);}
+}

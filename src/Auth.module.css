@@ -1,0 +1,82 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #343a40;
+    flex-direction: column;
+}
+.form Form{
+    width:500px;
+    padding: 30px;
+}
+.form h1{
+    text-align: center;
+}
+/* .form p{
+    color: aliceblue;
+}
+.form div{
+    width: 400px;
+}
+.form Form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(10, 71, 129, 0.3) ;
+    border-radius: 4px;
+    padding: 50px 50px;
+}
+form button{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+*/
+@media(max-width:560px){
+    .form Form{
+        width: 78%;
+    }
+} 
+@media(max-width:400px){
+    .form Form{
+        width: 90%;
+    }
+}
+.para{
+    color:white;
+}
+.form .otherLoginMethod{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+.form .otherLoginMethod div{
+    display: flex;
+    justify-content: space-evenly;
+    width:70%;
+}
+.form .otherLoginMethod div button{
+    outline: none;
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+    border: 5px solid #fff;
+    color:#343a40;
+    background-color: transparent;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+.form .otherLoginMethod div button i{
+    border-radius: 100%;
+    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.507);
+}
+.form .otherLoginMethod div button:hover{
+    border: 3px solid #343a40;
+    background-color: #343a40;
+    color: white;
+}
